@@ -107,7 +107,95 @@ $siteRadius5: 5px;
         }
       }
     }
-    main {
+    .screen_header_image {
+      .container {
+        .inner {
+          height: 420px;
+        }
+      }
+    }
+    .screen_content_section {
+      .container {
+        .title_section {
+          font-size: 50px;
+        }
+        .content_section {
+          font-size: 18px;
+        }
+      }
+    }
+    .foods_carousel_section {
+      .container {
+        .owl-carousel {
+          .item {
+            width: 250px;
+            height: 220px;
+          }
+        }
+      }
+    }
+    .prefers_section {
+      .container {
+        .items {
+          .item {
+            width: 320px;
+          }
+        }
+      }
+    }
+    .branches_section {
+      .container {
+        .branches_head {
+          .title_branches {
+            font-size: 40px;
+          }
+        }
+        .branches_bottom {
+          .items {
+            .item {
+              .title_item {
+                font-size: 22px;
+              }
+              .info_item {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .section_header {
+      .title_section {
+        font-size: 40px;
+      }
+    }
+    .map_section {
+      .map_container {
+        height: 450px;
+      }
+    }
+    .share_view {
+      margin: 120px 0px 0px 0px;
+    }
+    .foods_carousel_section {
+      .with_content {
+        .owl-carousel {
+          .item {
+            img {
+              height: 165px;
+            }
+            .content_view {
+              .title {
+                font-size: 20px;
+                margin-top: 8px;
+              }
+              .content {
+                margin-top: 2px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -154,7 +242,74 @@ $siteRadius5: 5px;
         }
       }
     }
-    main {
+    .screen_header_image {
+      .container {
+        .inner {
+          height: 350px;
+          .logo_inner {
+            width: 32%;
+          }
+        }
+      }
+    }
+    .foods_carousel_section {
+      .container {
+        .owl-carousel {
+          .item {
+            width: 190px;
+            height: 130px;
+          }
+        }
+      }
+    }
+    .screen_content_section {
+      margin-top: 40px;
+      .container {
+        .title_section {
+          font-size: 40px;
+        }
+      }
+    }
+    .prefers_section {
+      .container {
+        .items {
+          .item {
+            width: 241px;
+            .content_view {
+              .content_text {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .form_section {
+      .container {
+        .contact_form {
+          width: 100%;
+          textarea {
+            height: 250px;
+          }
+        }
+      }
+    }
+    .map_section {
+      .map_container {
+        height: 380px;
+      }
+    }
+    .foods_carousel_section {
+      .with_content {
+        .owl-carousel {
+          .item {
+            height: 210px;
+            img {
+              height: 130px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -232,7 +387,7 @@ $siteRadius5: 5px;
       }
     }
     .section_header {
-      margin: 20px 0px 10px 0px;
+      margin: 40px 0px 10px 0px;
       .title_section {
         font-size: 24px;
         border-bottom: 0px;
@@ -244,10 +399,10 @@ $siteRadius5: 5px;
         .items {
           .item {
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 20px !important;
             .img_view {
               height: 60vw;
-              margin-bottom: 8px;
+              margin-bottom: 16px;
             }
             .content_view {
               .title {
@@ -271,6 +426,144 @@ $siteRadius5: 5px;
       .btn_see_all {
         height: 40px;
         font-size: 16px;
+      }
+    }
+    .form_section {
+      .container {
+        .contact_form {
+          .send_view {
+            .btn_send {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .share_view {
+      margin: 80px 0px 0px 0px;
+      .btn_share {
+        height: 40px;
+        font-size: 16px;
+      }
+      .social_links_container {
+        .social_links_view {
+          height: 45;
+        }
+      }
+    }
+    .form_section {
+      margin: 60px 0px;
+    }
+    .foods_carousel_section {
+      margin-top: 30px;
+      .container {
+        .owl-carousel {
+          .item {
+            width: 31vw;
+            height: 28vw;
+          }
+        }
+      }
+      .with_content {
+        .owl-carousel {
+          .item {
+            width: 31vw;
+            height: 45vw;
+            img {
+              height: 28vw;
+            }
+            .content_view {
+              .title {
+                font-size: 18px;
+              }
+              .content {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .prefers_section {
+      .container {
+        .items {
+          justify-content: space-between;
+          .item {
+            width: 48%;
+            height: 90px;
+            margin-bottom: 12px !important;
+            &:not(:nth-child(3n + 3)) {
+              margin-right: 0px;
+            }
+            .content_view {
+              .content_text {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .branches_section {
+      padding: 30px 0px;
+      margin-top: 40px;
+      .container {
+        padding: 0px;
+        .branches_head {
+          padding: 0px 20px;
+          .title_branches {
+            font-size: 28px;
+            border-bottom: 2px solid #fff;
+            width: 100%;
+          }
+          .right_column {
+            display: none;
+          }
+        }
+        .branches_bottom {
+          margin-top: 30px;
+          .items {
+            flex-direction: column;
+            .item {
+              width: 100%;
+              padding: 20px;
+              &::before {
+                display: none;
+              }
+              &:nth-child(odd) {
+                background-color: #b81930;
+              }
+              .title_item {
+                font-size: 18px;
+                margin-bottom: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .map_section {
+      .map_container {
+        height: 250px;
+      }
+    }
+    .mt-block {
+      margin-top: 40px;
+    }
+    .screen_header_image {
+      .container {
+        .inner {
+          height: 50vw;
+        }
+      }
+    }
+    .screen_content_section {
+      margin-top: 30px;
+      .container {
+        .title_section {
+          font-size: 30px;
+          margin-bottom: 12px;
+        }
       }
     }
     footer {

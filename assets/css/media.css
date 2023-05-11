@@ -39,6 +39,50 @@
   body .products_section .container .items .item {
     width: 320px;
   }
+  body .screen_header_image .container .inner {
+    height: 420px;
+  }
+  body .screen_content_section .container .title_section {
+    font-size: 50px;
+  }
+  body .screen_content_section .container .content_section {
+    font-size: 18px;
+  }
+  body .foods_carousel_section .container .owl-carousel .item {
+    width: 250px;
+    height: 220px;
+  }
+  body .prefers_section .container .items .item {
+    width: 320px;
+  }
+  body .branches_section .container .branches_head .title_branches {
+    font-size: 40px;
+  }
+  body .branches_section .container .branches_bottom .items .item .title_item {
+    font-size: 22px;
+  }
+  body .branches_section .container .branches_bottom .items .item .info_item {
+    font-size: 14px;
+  }
+  body .section_header .title_section {
+    font-size: 40px;
+  }
+  body .map_section .map_container {
+    height: 450px;
+  }
+  body .share_view {
+    margin: 120px 0px 0px 0px;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item img {
+    height: 165px;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item .content_view .title {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item .content_view .content {
+    margin-top: 2px;
+  }
 }
 @media screen and (max-width: 1000px) {
   body .container {
@@ -64,6 +108,43 @@
   }
   body .products_section .container .items .item:not(:nth-last-child(-n+2)) {
     margin-bottom: 40px;
+  }
+  body .screen_header_image .container .inner {
+    height: 350px;
+  }
+  body .screen_header_image .container .inner .logo_inner {
+    width: 32%;
+  }
+  body .foods_carousel_section .container .owl-carousel .item {
+    width: 190px;
+    height: 130px;
+  }
+  body .screen_content_section {
+    margin-top: 40px;
+  }
+  body .screen_content_section .container .title_section {
+    font-size: 40px;
+  }
+  body .prefers_section .container .items .item {
+    width: 241px;
+  }
+  body .prefers_section .container .items .item .content_view .content_text {
+    font-size: 20px;
+  }
+  body .form_section .container .contact_form {
+    width: 100%;
+  }
+  body .form_section .container .contact_form textarea {
+    height: 250px;
+  }
+  body .map_section .map_container {
+    height: 380px;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item {
+    height: 210px;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item img {
+    height: 130px;
   }
 }
 @media screen and (max-width: 764px) {
@@ -122,7 +203,7 @@
     font-size: 18px;
   }
   body .section_header {
-    margin: 20px 0px 10px 0px;
+    margin: 40px 0px 10px 0px;
   }
   body .section_header .title_section {
     font-size: 24px;
@@ -131,11 +212,11 @@
   }
   body .products_section .container .items .item {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
   }
   body .products_section .container .items .item .img_view {
     height: 60vw;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
   }
   body .products_section .container .items .item .content_view .title {
     font-size: 20px;
@@ -154,6 +235,110 @@
   body .see_all_view .btn_see_all {
     height: 40px;
     font-size: 16px;
+  }
+  body .form_section .container .contact_form .send_view .btn_send {
+    width: 100%;
+  }
+  body .share_view {
+    margin: 80px 0px 0px 0px;
+  }
+  body .share_view .btn_share {
+    height: 40px;
+    font-size: 16px;
+  }
+  body .share_view .social_links_container .social_links_view {
+    height: 45;
+  }
+  body .form_section {
+    margin: 60px 0px;
+  }
+  body .foods_carousel_section {
+    margin-top: 30px;
+  }
+  body .foods_carousel_section .container .owl-carousel .item {
+    width: 31vw;
+    height: 28vw;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item {
+    width: 31vw;
+    height: 45vw;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item img {
+    height: 28vw;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item .content_view .title {
+    font-size: 18px;
+  }
+  body .foods_carousel_section .with_content .owl-carousel .item .content_view .content {
+    font-size: 14px;
+  }
+  body .prefers_section .container .items {
+    justify-content: space-between;
+  }
+  body .prefers_section .container .items .item {
+    width: 48%;
+    height: 90px;
+    margin-bottom: 12px !important;
+  }
+  body .prefers_section .container .items .item:not(:nth-child(3n+3)) {
+    margin-right: 0px;
+  }
+  body .prefers_section .container .items .item .content_view .content_text {
+    font-size: 12px;
+  }
+  body .branches_section {
+    padding: 30px 0px;
+    margin-top: 40px;
+  }
+  body .branches_section .container {
+    padding: 0px;
+  }
+  body .branches_section .container .branches_head {
+    padding: 0px 20px;
+  }
+  body .branches_section .container .branches_head .title_branches {
+    font-size: 28px;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+  }
+  body .branches_section .container .branches_head .right_column {
+    display: none;
+  }
+  body .branches_section .container .branches_bottom {
+    margin-top: 30px;
+  }
+  body .branches_section .container .branches_bottom .items {
+    flex-direction: column;
+  }
+  body .branches_section .container .branches_bottom .items .item {
+    width: 100%;
+    padding: 20px;
+  }
+  body .branches_section .container .branches_bottom .items .item::before {
+    display: none;
+  }
+  body .branches_section .container .branches_bottom .items .item:nth-child(odd) {
+    background-color: #b81930;
+  }
+  body .branches_section .container .branches_bottom .items .item .title_item {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  body .map_section .map_container {
+    height: 250px;
+  }
+  body .mt-block {
+    margin-top: 40px;
+  }
+  body .screen_header_image .container .inner {
+    height: 50vw;
+  }
+  body .screen_content_section {
+    margin-top: 30px;
+  }
+  body .screen_content_section .container .title_section {
+    font-size: 30px;
+    margin-bottom: 12px;
   }
   body footer {
     padding: 30px 0px;

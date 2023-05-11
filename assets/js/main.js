@@ -7,7 +7,8 @@ $(function () {
   });
 
   $(window).click(function () {
-    $("#btnLanguage").siblings(".language_overlay").fadeOut("fast");
+    $(".language_overlay").fadeOut("fast");
+    $(".social_links_container").fadeOut("fast");
   });
 
   if ($(".owl-carousel")[0]) {
@@ -38,7 +39,22 @@ $(function () {
         },
       },
     });
+    $(".foods_carousel_section .owl-carousel").owlCarousel({
+      margin: 40,
+      nav: true,
+      dots: false,
+      items: 3,
+      responsive: {
+        764: {
+          items: 4,
+        },
+        1300: {
+          items: 3,
+        },
+      },
+    });
   }
+
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
       $("#scroll-top").fadeIn();
@@ -46,12 +62,20 @@ $(function () {
       $("#scroll-top").fadeOut();
     }
   });
+
   $("#scroll-top").click(function () {
     $("html, body").animate({ scrollTop: 0 }, 500);
     return false;
   });
+
   $("#btnLanguage").click(function (e) {
     e.stopPropagation();
     $(this).siblings(".language_overlay").stop().slideToggle("fast");
   });
+
+  $(".btn_share").click(function (e) {
+    e.stopPropagation();
+    $(this).siblings(".social_links_container").stop().fadeToggle("fast");
+  });
+  
 });
