@@ -537,9 +537,6 @@ body .foods_carousel_section .container .owl-carousel .owl-nav button.owl-next {
   right: -30px;
   position: relative;
 }
-body .foods_carousel_section .container .owl-carousel .owl-stage-outer {
-  overflow: visible;
-}
 body .foods_carousel_section .container .owl-carousel .item {
   width: 420px;
   height: 420px;
@@ -550,9 +547,6 @@ body .foods_carousel_section .container .owl-carousel .item img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-body .foods_carousel_section .with_content .owl-carousel .owl-nav {
-  display: none !important;
 }
 body .foods_carousel_section .with_content .owl-carousel .item {
   height: auto;

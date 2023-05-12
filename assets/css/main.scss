@@ -547,9 +547,9 @@ body {
             }
           }
         }
-        .owl-stage-outer {
-          overflow: visible;
-        }
+        // .owl-stage-outer {
+        //   overflow: visible;
+        // }
         .item {
           width: 420px;
           height: 420px;
@@ -563,7 +563,7 @@ body {
     .with_content {
       .owl-carousel {
         .owl-nav {
-          display: none !important;
+          // display: none !important;
         }
         .item {
           height: auto;
