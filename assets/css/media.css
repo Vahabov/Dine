@@ -259,6 +259,13 @@
     width: 31vw;
     height: 28vw;
   }
+  body .foods_carousel_section .container .owl-carousel .owl-nav {
+    margin-top: 20px;
+  }
+  body .foods_carousel_section .container .owl-carousel .owl-nav button {
+    width: 20px;
+    height: 20px;
+  }
   body .foods_carousel_section .with_content .owl-carousel .item {
     width: 31vw;
     height: 45vw;
@@ -339,6 +346,9 @@
   body .screen_content_section .container .title_section {
     font-size: 30px;
     margin-bottom: 12px;
+  }
+  body .form_section .container .contact_form textarea {
+    height: 200px;
   }
   body footer {
     padding: 30px 0px;

@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
     <link href="./assets/css/owl.carousel.css" rel="stylesheet" />
     <link href="./assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/magnific-popup.min.css" />
     <title>Dine catering</title>
   </head>
   <body>
@@ -83,29 +88,29 @@
       </section>
       <section class="foods_carousel_section">
         <div class="container">
-          <div class="owl-carousel">
-            <a class="item" href="#">
+          <div class="owl-carousel popup_image1">
+            <a class="item" href="./assets/images/img1.png">
               <img src="./assets/images/img1.png" alt="#" />
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img2.png">
               <img src="./assets/images/img2.png" alt="#" />
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img3.png">
               <img src="./assets/images/img3.png" alt="#" />
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img4.png">
               <img src="./assets/images/img4.png" alt="#" />
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img5.png">
               <img src="./assets/images/img5.png" alt="#" />
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img1.png">
               <img src="./assets/images/img1.png" alt="#" />
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img2.png">
               <img src="./assets/images/img2.png" alt="#" />
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img4.png">
               <img src="./assets/images/img4.png" alt="#" />
             </a>
           </div>
@@ -228,57 +233,57 @@
       </div>
       <section class="foods_carousel_section">
         <div class="container with_content">
-          <div class="owl-carousel">
-            <a class="item" href="#">
+          <div class="owl-carousel popup_image2">
+            <a class="item" href="./assets/images/img1.png">
               <img src="./assets/images/img1.png" alt="#" />
               <div class="content_view">
                 <h5 class="title">Dine Catering</h5>
                 <p class="content">Ea simul necessitati vix, ex has...</p>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img2.png">
               <img src="./assets/images/img2.png" alt="#" />
               <div class="content_view">
                 <h5 class="title">Dine Catering</h5>
                 <p class="content">Ea simul necessitati vix, ex has...</p>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img3.png">
               <img src="./assets/images/img3.png" alt="#" />
               <div class="content_view">
                 <h5 class="title">Dine Catering</h5>
                 <p class="content">Ea simul necessitati vix, ex has...</p>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img4.png">
               <img src="./assets/images/img4.png" alt="#" />
               <div class="content_view">
                 <h5 class="title">Dine Catering</h5>
                 <p class="content">Ea simul necessitati vix, ex has...</p>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img5.png">
               <img src="./assets/images/img5.png" alt="#" />
               <div class="content_view">
                 <h5 class="title">Dine Catering</h5>
                 <p class="content">Ea simul necessitati vix, ex has...</p>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img1.png">
               <img src="./assets/images/img1.png" alt="#" />
               <div class="content_view">
                 <h5 class="title">Dine Catering</h5>
                 <p class="content">Ea simul necessitati vix, ex has...</p>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img2.png">
               <img src="./assets/images/img2.png" alt="#" />
               <div class="content_view">
                 <h5 class="title">Dine Catering</h5>
                 <p class="content">Ea simul necessitati vix, ex has...</p>
               </div>
             </a>
-            <a class="item" href="#">
+            <a class="item" href="./assets/images/img4.png">
               <img src="./assets/images/img4.png" alt="#" />
               <div class="content_view">
                 <h5 class="title">Dine Catering</h5>
@@ -521,9 +526,44 @@
     </footer>
 
     <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="/assets/js/svg-inject.min.js"></script>
     <script src="/assets/js/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script>
+      $(".popup_image1").magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: {
+          enabled: true,
+        },
+      });
+      $(".popup_image2").magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: {
+          enabled: true,
+        },
+      });
+      // $(function () {
+      //   $(".popup_image").magnificPopup({
+      //     delegate: "a",
+      //     type: "iframe",
+      //     gallery: {
+      //       enabled: true,
+      //     },
+      //     callbacks: {
+      //       change: function () {
+      //         var btnDownload = `<a class="download_video_icn_popup" download href=${this.currItem.src}><img src="../assets/images/icons/download_img_gal.svg"/></a>`;
+      //         setTimeout(() => {
+      //           $(".download_video_icn_popup").remove();
+      //           $(document).find(".mfp-content").append(btnDownload);
+      //         }, 100);
+      //       },
+      //     },
+      //   });
+      // });
+    </script>
   </body>
 </html>

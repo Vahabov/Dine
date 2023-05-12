@@ -462,6 +462,13 @@ $siteRadius5: 5px;
             width: 31vw;
             height: 28vw;
           }
+          .owl-nav{
+            margin-top: 20px;
+            button{
+              width: 20px;
+              height: 20px;
+            }
+          }
         }
       }
       .with_content {
@@ -563,6 +570,15 @@ $siteRadius5: 5px;
         .title_section {
           font-size: 30px;
           margin-bottom: 12px;
+        }
+      }
+    }
+    .form_section {
+      .container {
+        .contact_form {
+          textarea {
+            height: 200px;
+          }
         }
       }
     }
