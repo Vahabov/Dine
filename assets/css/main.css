@@ -340,6 +340,12 @@ body .see_all_view .btn_see_all {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
+}
+body .see_all_view .btn_see_all:hover {
+  background-color: #c12038;
+  color: #fff;
+  opacity: 1;
 }
 body .share_view {
   display: flex;
@@ -357,6 +363,11 @@ body .share_view .btn_share {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+body .share_view .btn_share:hover {
+  background-color: #c12038;
+  color: #fff;
+  opacity: 1;
 }
 body .share_view .social_links_container {
   display: none;
@@ -788,9 +799,9 @@ body header .home_header_image .header_img_background {
   z-index: -1;
 }
 body header .home_header_image .header_img_content {
-  font-size: 45px;
+  font-size: 55px;
   color: #fff;
-  width: 40%;
+  width: 55%;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
