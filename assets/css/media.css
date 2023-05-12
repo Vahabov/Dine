@@ -28,17 +28,6 @@
   body .products_section .container .items .item {
     width: 320px;
   }
-}
-@media screen and (max-width: 1300px) {
-  body .container {
-    max-width: 1000px;
-  }
-  body .brands_section .container .brands_view .item:not(:nth-child(3n+3)) {
-    margin-right: 200px;
-  }
-  body .products_section .container .items .item {
-    width: 320px;
-  }
   body .screen_header_image .container .inner {
     height: 420px;
   }
@@ -50,7 +39,7 @@
   }
   body .foods_carousel_section .container .owl-carousel .item {
     width: 250px;
-    height: 220px;
+    height: 235px;
   }
   body .prefers_section .container .items .item {
     width: 320px;

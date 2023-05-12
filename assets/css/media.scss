@@ -50,37 +50,6 @@ $siteRadius5: 5px;
   }
 }
 
-@media screen and (max-width: 1300px) {
-  body {
-    .container {
-      max-width: 1000px;
-    }
-    .brands_section {
-      .container {
-        .brands_view {
-          .item {
-            &:not(:nth-last-child(-n + 3)) {
-            }
-            &:not(:nth-child(3n + 3)) {
-              margin-right: 200px;
-            }
-          }
-        }
-      }
-    }
-    .products_section {
-      .container {
-        .items {
-          .item {
-            width: 320px;
-          }
-        }
-      }
-    }
-    main {
-    }
-  }
-}
 
 @media screen and (max-width: 1300px) {
   body {
@@ -129,7 +98,7 @@ $siteRadius5: 5px;
         .owl-carousel {
           .item {
             width: 250px;
-            height: 220px;
+            height: 235px;
           }
         }
       }
