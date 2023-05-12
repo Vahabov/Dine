@@ -451,9 +451,6 @@ $siteRadius5: 5px;
         }
       }
     }
-    .form_section {
-      margin: 60px 0px;
-    }
     .foods_carousel_section {
       margin-top: 30px;
       .container {
@@ -462,11 +459,17 @@ $siteRadius5: 5px;
             width: 31vw;
             height: 28vw;
           }
-          .owl-nav{
+          .owl-nav {
             margin-top: 20px;
-            button{
+            button {
               width: 20px;
               height: 20px;
+              &.owl-prev {
+                left: -16px;
+              }
+              &.owl-next {
+                right: -16px;
+              }
             }
           }
         }
@@ -475,22 +478,23 @@ $siteRadius5: 5px;
         .owl-carousel {
           .item {
             width: 31vw;
-            height: 45vw;
+            height: 47vw;
             img {
               height: 28vw;
             }
             .content_view {
               .title {
-                font-size: 18px;
+                font-size: 14px;
               }
               .content {
-                font-size: 14px;
+                font-size: 12px;
               }
             }
           }
         }
       }
     }
+
     .prefers_section {
       .container {
         .items {
@@ -574,7 +578,11 @@ $siteRadius5: 5px;
       }
     }
     .form_section {
+      margin: 50px 0px;
       .container {
+        .label_form {
+          font-size: 22px;
+        }
         .contact_form {
           textarea {
             height: 200px;
