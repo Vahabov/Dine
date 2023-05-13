@@ -50,7 +50,6 @@ $siteRadius5: 5px;
   }
 }
 
-
 @media screen and (max-width: 1300px) {
   body {
     .container {
@@ -174,11 +173,9 @@ $siteRadius5: 5px;
     .container {
       max-width: 764px;
     }
-    header {
-      .home_header_image {
-        .header_img_content {
-          font-size: 40px;
-        }
+    .home_header_image {
+      .header_img_content {
+        font-size: 40px;
       }
     }
     .brands_section {
@@ -289,6 +286,13 @@ $siteRadius5: 5px;
       max-width: 764px;
       padding: 0px 20px;
     }
+    .home_header_image {
+      height: 220px;
+      .header_img_content {
+        font-size: 28px;
+        width: 90%;
+      }
+    }
     header {
       .header_inner {
         .container {
@@ -313,13 +317,6 @@ $siteRadius5: 5px;
               }
             }
           }
-        }
-      }
-      .home_header_image {
-        height: 220px;
-        .header_img_content {
-          font-size: 28px;
-          width: 90%;
         }
       }
     }

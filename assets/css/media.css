@@ -77,7 +77,7 @@
   body .container {
     max-width: 764px;
   }
-  body header .home_header_image .header_img_content {
+  body .home_header_image .header_img_content {
     font-size: 40px;
   }
   body .brands_section .container .brands_view .item:not(:nth-child(3n+3)) {
@@ -141,6 +141,13 @@
     max-width: 764px;
     padding: 0px 20px;
   }
+  body .home_header_image {
+    height: 220px;
+  }
+  body .home_header_image .header_img_content {
+    font-size: 28px;
+    width: 90%;
+  }
   body header .header_inner .container {
     height: 65px;
   }
@@ -153,13 +160,6 @@
   }
   body header .header_inner .container .language_col .language_overlay ul li .text_language {
     font-size: 16px;
-  }
-  body header .home_header_image {
-    height: 220px;
-  }
-  body header .home_header_image .header_img_content {
-    font-size: 28px;
-    width: 90%;
   }
   body .brands_section {
     padding: 40px 0px;
