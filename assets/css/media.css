@@ -142,11 +142,22 @@
     padding: 0px 20px;
   }
   body .home_header_image {
-    height: 220px;
+    height: 280px;
   }
   body .home_header_image .header_img_content {
     font-size: 28px;
     width: 90%;
+  }
+  body .home_header_image .header_bottom_bar_view {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  body .home_header_image .header_bottom_bar_view .btn_bar {
+    width: 48%;
+    margin-right: 0px !important;
+    margin-bottom: 12px;
   }
   body header .header_inner .container {
     height: 65px;

@@ -287,10 +287,21 @@ $siteRadius5: 5px;
       padding: 0px 20px;
     }
     .home_header_image {
-      height: 220px;
+      height: 280px;
       .header_img_content {
         font-size: 28px;
         width: 90%;
+      }
+      .header_bottom_bar_view {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .btn_bar {
+          width: 48%;
+          margin-right: 0px !important;
+          margin-bottom: 12px;
+        }
       }
     }
     header {

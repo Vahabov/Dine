@@ -39,6 +39,33 @@ $(function () {
         },
       },
     });
+    $(".brands_view .owl-carousel").owlCarousel({
+      margin: 0,
+      loop: true,
+      nav: false,
+      dots: false,
+      autoWidth: false,
+      items: 4,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        450: {
+          items: 2,
+        },
+        764: {
+          items: 3,
+          nav: false,
+          loop: true,
+        },
+        1300: {
+          items: 4,
+        },
+      },
+    });
     $(".foods_carousel_section .owl-carousel").owlCarousel({
       margin: 40,
       nav: true,
@@ -77,5 +104,4 @@ $(function () {
     e.stopPropagation();
     $(this).siblings(".social_links_container").stop().fadeToggle("fast");
   });
-  
 });
